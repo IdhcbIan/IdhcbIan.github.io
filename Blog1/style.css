@@ -1,0 +1,51 @@
+.Main {
+    border: 2px solid white; /* Keeps the existing border */
+    padding: 10px; /* Keeps the existing padding */
+    list-style-type: none; /* Optional: removes default list style */
+    width: 50%; /* Adjusts the width of the box to 50% of its container */
+    margin: 1 auto; /* Centers the box horizontally */
+}
+
+body {
+    font-family: 'Times New Roman', Times;
+    font-style: italic;
+    color: white;
+    background-color: #2f343f;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+hr {
+    color: white;
+}
+
+
+.Main li ul {
+    padding-left: 20px; /* Properly indents nested lists */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    margin-right: 20px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.Main li::before {
+    content: '\25CF'; /* Unicode for filled circle */
+    color: white; /* Bullet color */
+    font-size: 20px; /* Adjust size if needed */
+    position: absolute;
+    left: -20px; /* Adjust position */
+    top: 0;
+}
+a {
+    color: lightblue; /* You can use any light color here */
+}

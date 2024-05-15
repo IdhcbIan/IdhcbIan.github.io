@@ -1,0 +1,39 @@
+.Main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Times New Roman', Times;
+    font-style: italic;
+    color: white;
+    background-color: #2f343f;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 18px;
+}
+
+hr {
+    color: white;
+}
+
+.Main li ul {
+    padding-left: 20px;
+}
+
+.Main li::before {
+    content: '\25CF';
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+
+a {
+    color: lightblue;
+}
